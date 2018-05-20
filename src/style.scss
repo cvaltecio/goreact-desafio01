@@ -1,28 +1,10 @@
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #4267b2;
-  border-bottom: 1px;
-  border-bottom-color: red;
-  font-size: 20px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  width: 100%;
-  padding: 0px;
-}
-
-.post {
-  margin-top: 150px;
-}
-
 body {
   background: #e9ebee;
+}
 
-  h1.title {
-    color: red;
-  }
+.containerPost {
+  margin-top: 100px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Header = props => <div className="post">{props.children}</div>;
+import './Header.scss';
+
+const Header = props => <div className="header">{props.children}</div>;
 
 Header.defaultProps = {
   children: 'RocketBook',
