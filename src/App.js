@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { render } from 'react-dom';
 
-import Button from './Button';
+import Header from './Header';
 
 import './style.scss';
 
@@ -17,9 +17,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="title">Olá mundo</h1>
-        <h2 style={{ color: '#f00' }}>{this.state.counter}</h2>
-        <Button onClick={this.hadleClick}>Somar </Button>
+        <Header />
       </Fragment>
     );
   }
