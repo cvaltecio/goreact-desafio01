@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --mode development"
   },
   "keywords": [],
-  "author": "",
+  "author": "cvaltecio",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.6.1",
